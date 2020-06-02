@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11/2/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <div class="search"> 
+      <form action="#"> 
+          <input type="text" placeholder="Search" name="search"> 
+      </form> 
+    </div> 
+  </div>
+
+
+  <div class="jumbotron centered">
+    <div class="container">
+      <h1 class="display-3">Welcome</h1>
+      <p class="lead">To continue further register or login!!</p>
+      <hr>
+      <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+      <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+<%- include('partials/footer') %>
